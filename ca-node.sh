@@ -46,8 +46,7 @@ mkdir documentation
 
 
 #Make test directory
-mkdir tests
-
+mkdir tests 
 
 #Make public directory to images and files
 mkdir public
@@ -68,6 +67,10 @@ mkdir infra
 mkdir main
 cd ..
 
+cd tests && mkdir application
+mkdir domain
+mkdir infra
+cd ..
 echo "Second Step: FINISH! ✅"
 
 #=================================================================================================#
